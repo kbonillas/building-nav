@@ -1,4 +1,42 @@
-.box{
+/* global styles */
+body{
+    margin: 0;
+}
+/* end global styles */
+
+
+/* nav styles */
+.main-nav{
+    height: 75px;
+    background-color: #333;
+}
+
+.logo{
+    height: 56px;
+    padding: 10px;
+}
+
+.nav-list{
+    float: right;
+    list-style-type: none;
+}
+
+li{
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
+}
+
+.center{
+    text-align: center;
+}
+/* end nav styles */
+
+
+
+
+/* below classes were used to learn float property */
+/* .box{
     height: 100px;
     width: 200px;
 }
@@ -45,4 +83,5 @@
 
 .clear-both{
     clear: both;
-}
+} */
+/* end float property */
