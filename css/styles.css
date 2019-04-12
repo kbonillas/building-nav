@@ -8,12 +8,20 @@ body{
 /* nav styles */
 .main-nav{
     height: 75px;
-    background-color: #333;
+    background-color: rgb(38, 40, 79);
+}
+
+.main-nav:hover{
+    height: 95px;
 }
 
 .logo{
     height: 56px;
     padding: 10px;
+}
+
+.logo:hover{
+    height: 76px;
 }
 
 .nav-list{
@@ -25,6 +33,11 @@ li{
     color: #fff;
     float: left;
     padding: 14px 16px;
+}
+
+li:hover{
+    font-size: 30px;
+    padding: 5px 16px;
 }
 
 .center{
