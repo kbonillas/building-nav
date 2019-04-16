@@ -15,6 +15,11 @@ body{
     height: 95px;
 }
 
+.main-nav:hover{
+    /* height: 95px; */
+    background-color: #333;
+}
+
 .logo{
     height: 56px;
     padding: 10px;
@@ -22,6 +27,7 @@ body{
 
 .logo:hover{
     height: 76px;
+    padding: 20px;
 }
 
 .nav-list{
@@ -36,8 +42,9 @@ li{
 }
 
 li:hover{
-    font-size: 30px;
-    padding: 5px 16px;
+    color: red;
+    /* font-size: 20px;
+    padding: 20px 25px; */
 }
 
 .center{
@@ -45,7 +52,40 @@ li:hover{
 }
 /* end nav styles */
 
+/* content styles */
+.content{
+    /* background-color: #BAD9FF; */
+    height: 78vh;
+}
+/* end content styles */
 
+/* footer styles */
+.footer{
+    background-color: #BAD9FF;
+}
+
+.social-media{
+   height: 50px;
+   padding: 10px;
+   margin-bottom: 0;
+   list-style-type: none;
+}
+
+.social-media:hover{
+    height: 50px;
+    margin-bottom: 0;
+    /* color: red; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+/* end footer styles */
 
 
 /* below classes were used to learn float property */
