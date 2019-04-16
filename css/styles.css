@@ -8,12 +8,26 @@ body{
 /* nav styles */
 .main-nav{
     height: 75px;
+    background-color: rgb(38, 40, 79);
+}
+
+.main-nav:hover{
+    height: 95px;
+}
+
+.main-nav:hover{
+    /* height: 95px; */
     background-color: #333;
 }
 
 .logo{
     height: 56px;
     padding: 10px;
+}
+
+.logo:hover{
+    height: 76px;
+    padding: 20px;
 }
 
 .nav-list{
@@ -27,13 +41,50 @@ li{
     padding: 14px 16px;
 }
 
+li:hover{
+    color: red;
+    /* font-size: 20px;
+    padding: 20px 25px; */
+}
+
 .center{
     text-align: center;
 }
 /* end nav styles */
 
+/* content styles */
+.content{
+    /* background-color: #BAD9FF; */
+    height: 78vh;
+}
+/* end content styles */
 
+/* footer styles */
+.footer{
+    background-color: #BAD9FF;
+}
 
+.social-media{
+   height: 50px;
+   padding: 10px;
+   margin-bottom: 0;
+   list-style-type: none;
+}
+
+.social-media:hover{
+    height: 50px;
+    margin-bottom: 0;
+    /* color: red; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
 
 /* below classes were used to learn float property */
 /* .box{
