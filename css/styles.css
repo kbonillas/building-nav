@@ -11,14 +11,9 @@ body{
     background-color: rgb(38, 40, 79);
 }
 
-.main-nav:hover{
+/* .main-nav:hover{
     height: 95px;
-}
-
-.main-nav:hover{
-    /* height: 95px; */
-    background-color: #333;
-}
+} */
 
 .logo{
     height: 56px;
@@ -84,6 +79,13 @@ a{
 
 a:hover{
     color: red;
+}
+/* end footer styles */
+
+iframe{
+    margin: 2em;
+    width: 300px;
+    height: 300px;
 }
 
 /* below classes were used to learn float property */
