@@ -85,7 +85,7 @@ a:hover{
 }
 /* end footer styles */
 
-iframe{
+.map{
     margin: 2em;
     width: 300px;
     height: 300px;
