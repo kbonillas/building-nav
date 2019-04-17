@@ -79,8 +79,9 @@ li:hover{
     margin: 10px;
     color: #fff;
     font-size: 24px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
+    transition: 350ms ease-in;
 }
 
 .button-success{
@@ -89,6 +90,7 @@ li:hover{
 
 .button-success:hover{
     background: rgb(8, 130, 8);
+    transition: 350ms ease-in;
 }
 
 .button-default{
@@ -99,6 +101,7 @@ li:hover{
 .button-default:hover{
     background: rgb(150, 150, 150);
     color: #444;
+    transition: 350ms ease-in;
 }
 
 .button-danger{
@@ -107,6 +110,7 @@ li:hover{
 
 .button-danger:hover{
     background: rgb(179, 0, 0);
+    transition: 350ms ease-in;
 }
 
 .button-small{
@@ -150,6 +154,43 @@ a:hover{
     padding: 2em;
     width: 100%;
     height: 300px;
+}
+
+/* all devices with screen width <= 768px */
+@media only screen and (max-width: 768px){
+    .button{
+        font-size: 18px;
+    }
+
+    .button-small{
+        width: 100px;
+    }
+
+    .button-large{
+        width: 200px;
+    }
+}
+
+/* all devices with screen width between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .button{
+        font-size: 22px;
+    }
+}
+
+/* all devices with screen width >= 1024px */
+@media only screen and (min-width: 1024px){
+    .button{
+        font-size: 30px;
+    }
+
+    .button-small{
+        width: 200px;
+    }
+
+    .button-large{
+        width: 300px;
+    }
 }
 
 /* below classes were used to learn float property */
