@@ -27,6 +27,10 @@ body{
 
 .nav-list{
     float: right;
+    /* list-style-type: none; */
+}
+
+.no-list-style{
     list-style-type: none;
 }
 
@@ -50,11 +54,67 @@ li:hover{
 /* content styles */
 .content{
     /* background-color: #BAD9FF; */
-    height: 78vh;
+    /* height: 78vh; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+}
+
+.oocss-buttons{
+    /* background-color: #BAD9FF; */
+    /* height: 78vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.margin-0-auto{
+    margin: 0 auto;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-success{
+    background: rgb(20, 171, 20);
+}
+
+.button-success:hover{
+    background: rgb(8, 130, 8);
+}
+
+.button-default{
+    background: #ccc;
+    color: #444;
+}
+
+.button-default:hover{
+    background: rgb(150, 150, 150);
+    color: #444;
+}
+
+.button-danger{
+    background: red;
+}
+
+.button-danger:hover{
+    background: rgb(179, 0, 0);
+}
+
+.button-small{
+    width: 150px;
+}
+
+.button-large{
+    width: 250px;
 }
 /* end content styles */
 
@@ -67,7 +127,7 @@ li:hover{
    height: 50px;
    padding: 10px;
    margin-bottom: 0;
-   list-style-type: none;
+   /* list-style-type: none; */
 }
 
 .social-media:hover{
@@ -87,8 +147,8 @@ a:hover{
 /* end footer styles */
 
 .map{
-    margin: 2em;
-    width: 300px;
+    padding: 2em;
+    width: 100%;
     height: 300px;
 }
 
